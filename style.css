@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #D4FAFC;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height:normal;
+}
+
+h1 {
+  color: #3FC1C9;
+}
+
+h2 {
+  color: #3FC1C9;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #364F6B;
+}
+
+.img-radius{
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.logo-color{
+  color: #FC5185;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #FC5185;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:link {
+  color: #FC5185;
+}
+
+
+a:focus, a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  color: red;
+}
+
+.text-justify {
+  text-align: center;
+}
+
+
+.container {
+  margin-top: 30;
+  margin:0 auto;
+  border: 1px;
+  text-align: center;
+  width:50%;
+  padding-top: 10vh;
+}
+
+
+.card {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25% 10%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(images/montagne.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Fill the width of the page with the image */
+  height: 10vh;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button {
+  background-color: #364F6B; /* Couleur de fond du bouton */
+  border: none; /* Suppression de la bordure */
+  color: white; /* Couleur du texte */
+  padding: 15px 32px; /* Espace de remplissage autour du texte */
+  text-align: center; /* Centrage du texte */
+  text-decoration: none; /* Suppression des décorations de texte */
+  display: inline-block; /* Affichage en bloc */
+  font-size: 16px; /* Taille de police */
+  margin: 4px 2px; /* Marge autour du bouton */
+  cursor: pointer; /* Curseur de souris en forme de main */
+  border-radius: 20px; /* Arrondi des coins */
+}
+
+.bouton:hover {
+  background-color: #FC5185;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
